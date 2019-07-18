@@ -1,0 +1,131 @@
+// Imports
+@import 'font-family.scss';
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(12, 6, 30);
+}
+#scroll-top-button {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 1;
+  button {
+    font-size: 23px;
+    color: rgb(12, 6, 30);
+  }
+}
+.page-container {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+
+  .header-jumbo {
+    background-image: url('../images/jumbotron-bg.jpeg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+
+    .row {
+      height: 85vh;
+
+      .title-col {
+        padding: 0 25px;
+        h1 {
+          color: white;
+          font-size: 44px;
+          text-align: left;
+          margin: 0;
+          font-family: 'EB Garamond', serif;
+        }
+        p{
+          color: #ecdeae;
+          font-style: italic;
+          font-size: 12px;
+          line-height: 0px;
+        }
+      }
+    }
+
+    button{
+      background-color: #ecdeae;
+      letter-spacing: 1px;
+      font-size: 18px;
+      font-family: 'Poppins', serif;
+      display: block;
+      margin: auto;
+      color: white;
+      border-radius: 0;
+    }
+  }
+  #more-info-row {
+    // background-color: rgb(12, 6, 30); <-- Dark Purple
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
+    .basic-site-card {
+      margin-top: 40px;
+      height: 220px;
+      border: none;
+
+      h2 {
+        text-align: center;
+        margin-bottom: 25px;
+      }
+      .card-body {
+        .card-text {
+          i {
+            color: orange;
+          }
+        }
+        button {
+          display: block;
+          margin: auto;
+          background-color: green;
+        }
+      }
+    }
+
+    .about-me-jumbo {
+      width: 100%;
+      background-color: white;
+      padding: 25px 0;
+
+      h1 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: rgb(12, 6, 30);
+        font-family: 'EB Garamond', serif;
+      }
+
+      .about-me-card {
+        display: block;
+        margin: auto;
+        border: none;
+        width: 100vw;
+      }
+
+      .about-me-paragraph {
+        margin: 41px 0;
+        background: rgba(0,0,0,0);
+        p {
+          font-size: 15px;
+          color: rgb(12, 6, 30);
+          padding: 0 5vh;
+          text-align: center;
+          letter-spacing: 0.5px;
+
+          span {
+            font-family: 'Pacifico', cursive;
+            color: #ecdeae;
+            font-size: 22px;
+            line-height: 15px;
+          }
+        }
+      }
+    }
+  }
+}
