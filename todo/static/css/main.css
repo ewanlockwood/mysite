@@ -14,10 +14,10 @@ html {
     font-size: 23px;
     color: #0c061e; }
 
-.page-container {
+.page-container, .container-fluid {
   font-family: 'Poppins', sans-serif;
   padding: 0; }
-  .page-container .header-jumbo {
+  .page-container .header-jumbo, .container-fluid .header-jumbo {
     background-image: url("../images/jumbotron-bg.jpeg");
     height: 100vh;
     background-position: center;
@@ -25,22 +25,22 @@ html {
     background-size: cover;
     width: 100%;
     margin: 0; }
-    .page-container .header-jumbo .row {
+    .page-container .header-jumbo .row, .container-fluid .header-jumbo .row {
       height: 85vh; }
-      .page-container .header-jumbo .row .title-col {
+      .page-container .header-jumbo .row .title-col, .container-fluid .header-jumbo .row .title-col {
         padding: 0 25px; }
-        .page-container .header-jumbo .row .title-col h1 {
+        .page-container .header-jumbo .row .title-col h1, .container-fluid .header-jumbo .row .title-col h1 {
           color: white;
           font-size: 44px;
           text-align: left;
           margin: 0;
           font-family: 'EB Garamond', serif; }
-        .page-container .header-jumbo .row .title-col p {
+        .page-container .header-jumbo .row .title-col p, .container-fluid .header-jumbo .row .title-col p {
           color: #ecdeae;
           font-style: italic;
           font-size: 12px;
           line-height: 0px; }
-    .page-container .header-jumbo button {
+    .page-container .header-jumbo button, .container-fluid .header-jumbo button {
       background-color: #ecdeae;
       letter-spacing: 1px;
       font-size: 18px;
@@ -49,50 +49,102 @@ html {
       margin: auto;
       color: white;
       border-radius: 0; }
-  .page-container #more-info-row {
+  .page-container #more-info-row, .container-fluid #more-info-row {
     height: 100vh;
     width: 100%;
     margin: 0; }
-    .page-container #more-info-row .basic-site-card {
-      margin-top: 40px;
-      height: 220px;
-      border: none; }
-      .page-container #more-info-row .basic-site-card h2 {
-        text-align: center;
-        margin-bottom: 25px; }
-      .page-container #more-info-row .basic-site-card .card-body .card-text i {
-        color: orange; }
-      .page-container #more-info-row .basic-site-card .card-body button {
-        display: block;
-        margin: auto;
-        background-color: green; }
-    .page-container #more-info-row .about-me-jumbo {
+    .page-container #more-info-row .about-me-jumbo, .container-fluid #more-info-row .about-me-jumbo {
       width: 100%;
       background-color: white;
       padding: 25px 0; }
-      .page-container #more-info-row .about-me-jumbo h1 {
+      .page-container #more-info-row .about-me-jumbo h1, .container-fluid #more-info-row .about-me-jumbo h1 {
         text-align: center;
         margin-bottom: 25px;
         color: #0c061e;
         font-family: 'EB Garamond', serif; }
-      .page-container #more-info-row .about-me-jumbo .about-me-card {
+      .page-container #more-info-row .about-me-jumbo .about-me-card, .container-fluid #more-info-row .about-me-jumbo .about-me-card {
         display: block;
         margin: auto;
         border: none;
         width: 100vw; }
-      .page-container #more-info-row .about-me-jumbo .about-me-paragraph {
+      .page-container #more-info-row .about-me-jumbo .about-me-paragraph, .container-fluid #more-info-row .about-me-jumbo .about-me-paragraph {
         margin: 41px 0;
         background: transparent; }
-        .page-container #more-info-row .about-me-jumbo .about-me-paragraph p {
+        .page-container #more-info-row .about-me-jumbo .about-me-paragraph p, .container-fluid #more-info-row .about-me-jumbo .about-me-paragraph p {
           font-size: 15px;
           color: #0c061e;
           padding: 0 5vh;
           text-align: center;
           letter-spacing: 0.5px; }
-          .page-container #more-info-row .about-me-jumbo .about-me-paragraph p span {
+          .page-container #more-info-row .about-me-jumbo .about-me-paragraph p span, .container-fluid #more-info-row .about-me-jumbo .about-me-paragraph p span {
             font-family: 'Pacifico', cursive;
             color: #ecdeae;
             font-size: 22px;
             line-height: 15px; }
+  .page-container #packages-row, .container-fluid #packages-row {
+    height: auto;
+    width: 100%;
+    margin: 0; }
+    .page-container #packages-row #pbc,
+    .page-container #packages-row #psc,
+    .page-container #packages-row #pgc, .container-fluid #packages-row #pbc,
+    .container-fluid #packages-row #psc,
+    .container-fluid #packages-row #pgc {
+      height: 550px;
+      width: 300px;
+      display: block;
+      margin: 0 auto 30px;
+      position: relative; }
+      .page-container #packages-row #pbc #pbfu,
+      .page-container #packages-row #pbc #psfu,
+      .page-container #packages-row #pbc #pgfu,
+      .page-container #packages-row #psc #pbfu,
+      .page-container #packages-row #psc #psfu,
+      .page-container #packages-row #psc #pgfu,
+      .page-container #packages-row #pgc #pbfu,
+      .page-container #packages-row #pgc #psfu,
+      .page-container #packages-row #pgc #pgfu, .container-fluid #packages-row #pbc #pbfu,
+      .container-fluid #packages-row #pbc #psfu,
+      .container-fluid #packages-row #pbc #pgfu,
+      .container-fluid #packages-row #psc #pbfu,
+      .container-fluid #packages-row #psc #psfu,
+      .container-fluid #packages-row #psc #pgfu,
+      .container-fluid #packages-row #pgc #pbfu,
+      .container-fluid #packages-row #pgc #psfu,
+      .container-fluid #packages-row #pgc #pgfu {
+        height: 200px;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        bottom: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid;
+        border-width: 100px 300px 100px 0; }
+      .page-container #packages-row #pbc #pbf,
+      .page-container #packages-row #pbc #psf,
+      .page-container #packages-row #pbc #pgf,
+      .page-container #packages-row #psc #pbf,
+      .page-container #packages-row #psc #psf,
+      .page-container #packages-row #psc #pgf,
+      .page-container #packages-row #pgc #pbf,
+      .page-container #packages-row #pgc #psf,
+      .page-container #packages-row #pgc #pgf, .container-fluid #packages-row #pbc #pbf,
+      .container-fluid #packages-row #pbc #psf,
+      .container-fluid #packages-row #pbc #pgf,
+      .container-fluid #packages-row #psc #pbf,
+      .container-fluid #packages-row #psc #psf,
+      .container-fluid #packages-row #psc #pgf,
+      .container-fluid #packages-row #pgc #pbf,
+      .container-fluid #packages-row #pgc #psf,
+      .container-fluid #packages-row #pgc #pgf {
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        bottom: 0; }
+
+@media (min-width: 767px) {
+  .page-container #more-info-row .about-me-jumbo .about-me-card {
+    width: 65vw; } }
 
 /*# sourceMappingURL=main.css.map */

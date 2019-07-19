@@ -15,7 +15,7 @@ html {
     color: rgb(12, 6, 30);
   }
 }
-.page-container {
+.page-container, .container-fluid {
   font-family: 'Poppins', sans-serif;
   padding: 0;
 
@@ -66,29 +66,6 @@ html {
     width: 100%;
     margin: 0;
 
-    .basic-site-card {
-      margin-top: 40px;
-      height: 220px;
-      border: none;
-
-      h2 {
-        text-align: center;
-        margin-bottom: 25px;
-      }
-      .card-body {
-        .card-text {
-          i {
-            color: orange;
-          }
-        }
-        button {
-          display: block;
-          margin: auto;
-          background-color: green;
-        }
-      }
-    }
-
     .about-me-jumbo {
       width: 100%;
       background-color: white;
@@ -124,6 +101,58 @@ html {
             font-size: 22px;
             line-height: 15px;
           }
+        }
+      }
+    }
+  }
+  #packages-row {
+    height: auto;
+    width: 100%;
+    margin: 0;
+
+    #pbc,
+    #psc,
+    #pgc{
+      height: 550px;
+      width: 300px;
+      display: block;
+      margin: 0 auto 30px;
+      position: relative;
+
+      #pbfu,
+      #psfu,
+      #pgfu {
+        height: 200px;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        bottom: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right:10px solid;
+        border-width: 100px 300px 100px 0;
+      }
+
+      #pbf,
+      #psf,
+      #pgf {
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+
+  }
+}
+
+// Media Queries
+@media(min-width: 767px) {
+  .page-container{
+    #more-info-row {
+      .about-me-jumbo{
+        .about-me-card {
+          width: 65vw;
         }
       }
     }
