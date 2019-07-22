@@ -5,6 +5,12 @@ html {
   scroll-behavior: smooth;
   background-color: rgb(12, 6, 30);
 }
+.modal{
+  button {
+    border-radius: 0;
+    border: none;
+  }
+}
 #scroll-top-button {
   position: fixed;
   bottom: 25px;
@@ -119,6 +125,47 @@ html {
       margin: 0 auto 30px;
       position: relative;
 
+      #pbh,
+      #psh,
+      #pgh {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        font-family: 'EB Garamond', serif;
+
+        h1 {
+          margin-top: 14px;
+          font-size: 60px;
+          color: white;
+        }
+        hr {
+          width: 60%;
+          border-top: solid 3px white;
+        }
+      }
+
+      #pbcontent,
+      #pscontent,
+      #pgcontent {
+        position: absolute;
+        top: 25%;
+        width: 100%;
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          text-align: center;
+
+          li {
+            font-size: 24px;
+            color: white;
+            margin-bottom: 21px;
+            padding: 0 25px;
+          }
+        }
+      }
+
       #pbfu,
       #psfu,
       #pgfu {
@@ -153,6 +200,18 @@ html {
       .about-me-jumbo{
         .about-me-card {
           width: 65vw;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 1023px) {
+  .page-container{
+    #more-info-row {
+      .about-me-jumbo{
+        .about-me-card {
+          width: 25vw;
         }
       }
     }

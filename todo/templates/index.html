@@ -9,9 +9,26 @@
   <title>Ewan Lockwood</title>
 </head>
 <body>
+  <!-- modal START -->
+  <div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p> Please be aware, this website is still under construction.</p>
+        </div>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Okay</button>
+      </div>
+    </div>
+  </div>
+  <!-- modal END -->
+
+  <!-- scroll button START -->
   <div id='scroll-top-button'>
     <button type="button" class="btn" onClick="document.getElementById('page-container').scrollIntoView();"> <i class="fas fa-level-up-alt"></i> </button>
   </div>
+  <!-- scroll button END -->
+
+  <!-- page container START -->
   <div id='page-container' class="page-container container-fluid" style="padding: 0;">
     <div class="header-jumbo jumbotron jumbotron-fluid">
       <div class="container">
@@ -42,6 +59,20 @@
       <!-- Bronze START -->
       <div class="col-xs-12 col-md-6 col-lg-4">
         <div id="pbc" style='background-color: #C7AE8D;'>
+
+          <div id="pbh">
+            <h1> Bronze </h1>
+            <hr class="phr">
+          </div>
+
+          <div id='pbcontent'>
+            <ul>
+              <li> 5 Custom Pages </li>
+              <li> Responsive Website </li>
+              <li> Design Customisation </li>
+            </ul>
+          </div>
+
           <div id='pbf' style="background-color: #E3D9CC;"> </div>
           <div id="pbfu" style="border-right-color: #AA9274"></div>
         </div>
@@ -51,6 +82,21 @@
       <!-- Silver START -->
       <div class="col-xs-12 col-md-6 col-lg-4">
         <div id="psc" style='background-color: #CBC7C2;'>
+
+          <div id="psh">
+            <h1> Silver </h1>
+            <hr class="phr">
+          </div>
+
+          <div id='pscontent'>
+            <ul>
+              <li> Bronze + </li>
+              <li> Email Automation </li>
+              <li> Custom Number of Pages </li>
+              <li> API Integration </li>
+            </ul>
+          </div>
+
           <div id='psf' style="background-color: #EEECEB;"> </div>
           <div id="psfu" style="border-right-color: #B2AFAB;"></div>
         </div>
@@ -60,6 +106,21 @@
       <!-- Gold START -->
       <div class="col-xs-12 col-md-12 col-lg-4">
         <div id="pgc" style="background-color: #F2DCA1;">
+
+          <div id="pgh">
+            <h1> Gold </h1>
+            <hr class="phr">
+          </div>
+
+          <div id='pgcontent'>
+            <ul>
+              <li> Bronze & Silver + </li>
+              <li> Custom Web Application </li>
+              <li> Unlimited Revisions </li>
+              <li> Users </li>
+            </ul>
+          </div>
+
           <div id='pgf' style="background-color: #F2ECDB;"> </div>
           <div id="pgfu" style="border-right-color: #CEB983;"></div>
         </div>
@@ -67,6 +128,8 @@
       <!-- Gold END -->
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../static/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- page container END -->
 </html>

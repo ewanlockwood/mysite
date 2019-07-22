@@ -5,6 +5,10 @@ html {
   scroll-behavior: smooth;
   background-color: #0c061e; }
 
+.modal button {
+  border-radius: 0;
+  border: none; }
+
 #scroll-top-button {
   position: fixed;
   bottom: 25px;
@@ -95,6 +99,128 @@ html {
       display: block;
       margin: 0 auto 30px;
       position: relative; }
+      .page-container #packages-row #pbc #pbh,
+      .page-container #packages-row #pbc #psh,
+      .page-container #packages-row #pbc #pgh,
+      .page-container #packages-row #psc #pbh,
+      .page-container #packages-row #psc #psh,
+      .page-container #packages-row #psc #pgh,
+      .page-container #packages-row #pgc #pbh,
+      .page-container #packages-row #pgc #psh,
+      .page-container #packages-row #pgc #pgh, .container-fluid #packages-row #pbc #pbh,
+      .container-fluid #packages-row #pbc #psh,
+      .container-fluid #packages-row #pbc #pgh,
+      .container-fluid #packages-row #psc #pbh,
+      .container-fluid #packages-row #psc #psh,
+      .container-fluid #packages-row #psc #pgh,
+      .container-fluid #packages-row #pgc #pbh,
+      .container-fluid #packages-row #pgc #psh,
+      .container-fluid #packages-row #pgc #pgh {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        font-family: 'EB Garamond', serif; }
+        .page-container #packages-row #pbc #pbh h1,
+        .page-container #packages-row #pbc #psh h1,
+        .page-container #packages-row #pbc #pgh h1,
+        .page-container #packages-row #psc #pbh h1,
+        .page-container #packages-row #psc #psh h1,
+        .page-container #packages-row #psc #pgh h1,
+        .page-container #packages-row #pgc #pbh h1,
+        .page-container #packages-row #pgc #psh h1,
+        .page-container #packages-row #pgc #pgh h1, .container-fluid #packages-row #pbc #pbh h1,
+        .container-fluid #packages-row #pbc #psh h1,
+        .container-fluid #packages-row #pbc #pgh h1,
+        .container-fluid #packages-row #psc #pbh h1,
+        .container-fluid #packages-row #psc #psh h1,
+        .container-fluid #packages-row #psc #pgh h1,
+        .container-fluid #packages-row #pgc #pbh h1,
+        .container-fluid #packages-row #pgc #psh h1,
+        .container-fluid #packages-row #pgc #pgh h1 {
+          margin-top: 14px;
+          font-size: 60px;
+          color: white; }
+        .page-container #packages-row #pbc #pbh hr,
+        .page-container #packages-row #pbc #psh hr,
+        .page-container #packages-row #pbc #pgh hr,
+        .page-container #packages-row #psc #pbh hr,
+        .page-container #packages-row #psc #psh hr,
+        .page-container #packages-row #psc #pgh hr,
+        .page-container #packages-row #pgc #pbh hr,
+        .page-container #packages-row #pgc #psh hr,
+        .page-container #packages-row #pgc #pgh hr, .container-fluid #packages-row #pbc #pbh hr,
+        .container-fluid #packages-row #pbc #psh hr,
+        .container-fluid #packages-row #pbc #pgh hr,
+        .container-fluid #packages-row #psc #pbh hr,
+        .container-fluid #packages-row #psc #psh hr,
+        .container-fluid #packages-row #psc #pgh hr,
+        .container-fluid #packages-row #pgc #pbh hr,
+        .container-fluid #packages-row #pgc #psh hr,
+        .container-fluid #packages-row #pgc #pgh hr {
+          width: 60%;
+          border-top: solid 3px white; }
+      .page-container #packages-row #pbc #pbcontent,
+      .page-container #packages-row #pbc #pscontent,
+      .page-container #packages-row #pbc #pgcontent,
+      .page-container #packages-row #psc #pbcontent,
+      .page-container #packages-row #psc #pscontent,
+      .page-container #packages-row #psc #pgcontent,
+      .page-container #packages-row #pgc #pbcontent,
+      .page-container #packages-row #pgc #pscontent,
+      .page-container #packages-row #pgc #pgcontent, .container-fluid #packages-row #pbc #pbcontent,
+      .container-fluid #packages-row #pbc #pscontent,
+      .container-fluid #packages-row #pbc #pgcontent,
+      .container-fluid #packages-row #psc #pbcontent,
+      .container-fluid #packages-row #psc #pscontent,
+      .container-fluid #packages-row #psc #pgcontent,
+      .container-fluid #packages-row #pgc #pbcontent,
+      .container-fluid #packages-row #pgc #pscontent,
+      .container-fluid #packages-row #pgc #pgcontent {
+        position: absolute;
+        top: 25%;
+        width: 100%; }
+        .page-container #packages-row #pbc #pbcontent ul,
+        .page-container #packages-row #pbc #pscontent ul,
+        .page-container #packages-row #pbc #pgcontent ul,
+        .page-container #packages-row #psc #pbcontent ul,
+        .page-container #packages-row #psc #pscontent ul,
+        .page-container #packages-row #psc #pgcontent ul,
+        .page-container #packages-row #pgc #pbcontent ul,
+        .page-container #packages-row #pgc #pscontent ul,
+        .page-container #packages-row #pgc #pgcontent ul, .container-fluid #packages-row #pbc #pbcontent ul,
+        .container-fluid #packages-row #pbc #pscontent ul,
+        .container-fluid #packages-row #pbc #pgcontent ul,
+        .container-fluid #packages-row #psc #pbcontent ul,
+        .container-fluid #packages-row #psc #pscontent ul,
+        .container-fluid #packages-row #psc #pgcontent ul,
+        .container-fluid #packages-row #pgc #pbcontent ul,
+        .container-fluid #packages-row #pgc #pscontent ul,
+        .container-fluid #packages-row #pgc #pgcontent ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          text-align: center; }
+          .page-container #packages-row #pbc #pbcontent ul li,
+          .page-container #packages-row #pbc #pscontent ul li,
+          .page-container #packages-row #pbc #pgcontent ul li,
+          .page-container #packages-row #psc #pbcontent ul li,
+          .page-container #packages-row #psc #pscontent ul li,
+          .page-container #packages-row #psc #pgcontent ul li,
+          .page-container #packages-row #pgc #pbcontent ul li,
+          .page-container #packages-row #pgc #pscontent ul li,
+          .page-container #packages-row #pgc #pgcontent ul li, .container-fluid #packages-row #pbc #pbcontent ul li,
+          .container-fluid #packages-row #pbc #pscontent ul li,
+          .container-fluid #packages-row #pbc #pgcontent ul li,
+          .container-fluid #packages-row #psc #pbcontent ul li,
+          .container-fluid #packages-row #psc #pscontent ul li,
+          .container-fluid #packages-row #psc #pgcontent ul li,
+          .container-fluid #packages-row #pgc #pbcontent ul li,
+          .container-fluid #packages-row #pgc #pscontent ul li,
+          .container-fluid #packages-row #pgc #pgcontent ul li {
+            font-size: 24px;
+            color: white;
+            margin-bottom: 21px;
+            padding: 0 25px; }
       .page-container #packages-row #pbc #pbfu,
       .page-container #packages-row #pbc #psfu,
       .page-container #packages-row #pbc #pgfu,
@@ -146,5 +272,8 @@ html {
 @media (min-width: 767px) {
   .page-container #more-info-row .about-me-jumbo .about-me-card {
     width: 65vw; } }
+@media (min-width: 1023px) {
+  .page-container #more-info-row .about-me-jumbo .about-me-card {
+    width: 25vw; } }
 
 /*# sourceMappingURL=main.css.map */
