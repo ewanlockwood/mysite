@@ -22,7 +22,7 @@ html {
   font-family: 'Poppins', sans-serif;
   padding: 0; }
   .page-container .header-jumbo, .container-fluid .header-jumbo {
-    background-image: url("../images/jumbotron-bg.jpeg");
+    background-image: url("../images/footer-2.jpeg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,7 +70,8 @@ html {
         display: block;
         margin: auto;
         border: none;
-        width: 100vw; }
+        width: 100vw;
+        height: 375px; }
       .page-container #more-info-row .about-me-jumbo .about-me-paragraph, .container-fluid #more-info-row .about-me-jumbo .about-me-paragraph {
         margin: 41px 0;
         background: transparent; }
@@ -269,11 +270,22 @@ html {
         position: absolute;
         bottom: 0; }
 
+footer {
+  height: 100vh;
+  width: 100%;
+  background-color: #383838;
+  text-align: center;
+  color: white; }
+
 @media (min-width: 767px) {
   .page-container #more-info-row .about-me-jumbo .about-me-card {
-    width: 65vw; } }
+    width: 65vw;
+    height: auto; } }
 @media (min-width: 1023px) {
-  .page-container #more-info-row .about-me-jumbo .about-me-card {
-    width: 25vw; } }
+  .page-container #more-info-row {
+    margin-bottom: 200px; }
+    .page-container #more-info-row .about-me-jumbo .about-me-card {
+      width: 35vw;
+      height: auto; } }
 
 /*# sourceMappingURL=main.css.map */

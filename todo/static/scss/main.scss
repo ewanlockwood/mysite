@@ -26,7 +26,7 @@ html {
   padding: 0;
 
   .header-jumbo {
-    background-image: url('../images/jumbotron-bg.jpeg');
+    background-image: url('../images/footer-2.jpeg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,6 +89,7 @@ html {
         margin: auto;
         border: none;
         width: 100vw;
+        height: 375px;
       }
 
       .about-me-paragraph {
@@ -192,6 +193,13 @@ html {
 
   }
 }
+footer {
+  height: 100vh;
+  width: 100%;
+  background-color: #383838;
+  text-align: center;
+  color: white;
+}
 
 // Media Queries
 @media(min-width: 767px) {
@@ -200,6 +208,7 @@ html {
       .about-me-jumbo{
         .about-me-card {
           width: 65vw;
+          height: auto;
         }
       }
     }
@@ -209,9 +218,12 @@ html {
 @media(min-width: 1023px) {
   .page-container{
     #more-info-row {
+      margin-bottom: 200px;
+
       .about-me-jumbo{
         .about-me-card {
-          width: 25vw;
+          width: 35vw;
+          height: auto;
         }
       }
     }
